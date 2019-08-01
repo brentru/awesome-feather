@@ -10,16 +10,22 @@ All Adafruit products are open source. Adafruit encourages other companies to ut
 
 ## Contents
 
+- [Contents](#contents)
 - [Guides](#guides)
 - [Community](#community)
 - [Code Frameworks](#code-frameworks)
+  - [CircuitPython](#circuitpython)
+  - [Arduino](#arduino)
 - [Feather Hardware](#feather-hardware)
+  - [Feather Compatible Processor Boards](#feather-compatible-processor-boards)
 - [FeatherWings](#featherwings)
+  - [FeatherWings (non-Adafruit)](#featherwings-non-adafruit)
 - [Accessories](#accessories)
-- [In the news](#news)
-- [Art, logos, graphics](#art)
-- [Social media](#social)
+- [News](#news)
+- [Art](#art)
+- [Social](#social)
 - [Contributing](#contributing)
+- [License & Trademarks](#license--trademarks)
 
 ## Guides
 
@@ -112,6 +118,10 @@ Note: See the [Introduction to Feather Guide](https://learn.adafruit.com/adafrui
 | [MCCI](https://store.mcci.com/) | [Catena 4610](https://store.mcci.com/collections/lorawan-iot-and-the-things-network/products/mcci-catena-4610-integrated-node-for-lorawan-technology) | Murata CMWX1ZZABZ-078, LoRaWAN 1.0/1.1 865-923 MHz |
 | MCCI | [Catena 4612](https://mcci.com/lorawan/products/catena-4612/) | Murata CMWX1ZZABZ-078, LoRaWAN 1.0/1.1 865-923 MHz, FRAM |
 | MCCI | [Catena 4801](https://mcci.com/lorawan/products/catena-4801/) | Murata CMWX1ZZABZ-078, LoRaWAN 1.02/1.1 865-923 MHz, RS-485/Modbus |
+| MCCI | [Catena 4617](https://mcci.com/lorawan/products/catena-4801/) | STM320L0, Murata CMWX1ZZABZ-078, HS3001|
+| MCCI | [Catena 4618](https://mcci.com/lorawan/products/catena-4801/) | STM320L0, Murata CMWX1ZZABZ-078, SHT31-DIS-F, Si133|
+| MCCI | [Catena 4618](https://mcci.com/lorawan/products/catena-4801/) | Murata CMWX1ZZABZ-078, PMS7003|
+| MCCI | [Catena 4710](https://mcci.com/lorawan/products/catena-4801/) | ICE40UP, LoRaWAN, Compatible with MCCI RISC-V Arduino BSP |
 | SparkFun | [ESP32 Thing Plus](https://www.sparkfun.com/products/14689) | Espressif ESP32 WROOM, WiFi, Bluetooth |
 | SparkFun | [SparkFun Thing Plus - SAMD51](https://www.sparkfun.com/products/14713) | SAMD51 in a Feather size board with Quiic |
 | The Things Network Sevilla | [T.O.G Mk1](https://twitter.com/ttn_sevilla/status/1117725090693767168) | Feather M0 clone with LoRaWAN |
@@ -209,6 +219,7 @@ Note: See the [Introduction to Feather Guide](https://learn.adafruit.com/adafrui
 | [MCCI](https://mcci.com/) | [Catena 4450](https://store.mcci.com/collections/lorawan-iot-and-the-things-network/products/catena-4450-lorawan-iot-device) | FRAM, BME-280 Sensor, lux sensor, I2C multiplexer, LoRaWAN |
 | MCCI | [Catena 4460](https://store.mcci.com/collections/lorawan-iot-and-the-things-network/products/catena-4460-sensor-wing-w-bme680) | LoRaWAN 1.0/1.1, BME680 Sensor, lux sensor, FRAM, I2C Multiplexer |
 | MCCI | [Catena 4470](https://store.mcci.com/collections/lorawan-iot-and-the-things-network/products/mcci-catena-4470-modbus-node-for-lorawan-technology) | LoRaWAN 1.0.2/1.1, RS-485, BME-280 Sensor, lux sensor, FRAM, SPI Flash |
+| MCCI | [Catena 4430](https://store.mcci.com/collections/lorawan-iot-and-the-things-network/products/mcci-catena-4470-modbus-node-for-lorawan-technology) | Activity Sensor Wing, PIR Sensor, RTC, Micro-SD |
 | SparkFun | [ESP32 Thing Plus DMX to LED Shield](https://www.sparkfun.com/products/15110) | DMX board with XLR-3 and ArtNet jacks |
 | Steiert Solutions | [Feather Qwiing](https://www.crowdsupply.com/steiert-solutions/qwiikit#qwiing) | Adds 2 Quiic connectors, MicroSD and locations for UEXT and SAO headers |
 | JTinker | [6 Channel, 24 bit ADC Full Bridge Sensor FeatherWing](https://www.tindie.com/products/jtinker/6-ch-24-bit-full-bridge-sensor-featherwing/) | 6 Channel 24bit ADC FeatherWing for full bridge sensors |
